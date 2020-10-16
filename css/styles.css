@@ -1,0 +1,77 @@
+body{
+    
+    color: #ffffff;
+    background-color: #216869;
+}
+
+.titleMain h1{
+    position: relative;
+    font-size: 65px;
+    align-self: center;
+    color: #1f2421;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #216869;   
+}
+
+.notesContainer{
+    /* background-color: #9cc5a1; */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 23px;
+    
+    
+}
+
+#modaladder .form-group label{
+    color: #000000;
+}
+
+
+#notesContainer{
+    margin-top: 5%;
+    /* background-color: red; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+#notesContainer .row{
+   
+    text-align: center;
+    align-items: center;
+}
+
+#addbutton{
+    font-size: 20px;
+}
+
+#maintitle{
+    color: #ffffff;
+    
+}
+
+#notesContainer .row .col-sm{
+    text-align: center;
+    color: #383838;
+    margin-left: 4.5%;
+    /* El responsive es un poco patata 
+    por ahora lo dejaré así. */
+}
+#notesContainer .row{
+    text-align: center;
+    color: yellow;
+}
+
+.card{
+    margin: 10px;
+    
+}
+
+.modal-body form .form-group label{
+    color: #000000;
+}
