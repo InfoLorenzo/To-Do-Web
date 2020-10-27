@@ -7,164 +7,103 @@
    
 
 
-    <!-- Styles Boostrap -->.
+    <!-- Styles Boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-
-    <div class="titleMain">
-
-        <h1 id="maintitle">Mis Notas <span type="button" class="btn btn-primary badge badge-secondary" id="addbutton" data-toggle="modal" data-target="#exampleModal">Añadir</span></h1>
-
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel" style="color: #000000;">Añadir nueva Nota</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <form action="#">
-
-                    <div class="form-group">
-                      <label for="titulo">Title</label>
-                      <input type="text" class="form-control" id="tasktitle" aria-describedby="textHelp" placeholder="Today's tasks">
-                      <small id="titleadvise" class="form-text text-muted">We'll never share your info with anyone else.</small>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="concept">Concept</label>
-                      <input type="text" class="form-control" id="taskConcept" aria-describedby="textHelp" placeholder="To - Do list">
-                      
-                    </div>
-
-                    <div class="form-group">
-                      <label for="taskTextArea">Note text</label>
-                      <textarea class="form-control" id="taskTextArea" rows="3" placeholder="- Buy Milk"></textarea>
-                    </div>
-
-
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="linkValidation">Add a Link</label>
-                    </div>
-                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                  
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary" id="formSubmit">Add task</button>
-            </div>
-
-            </form>
-          </div>
-        </div>
-      </div>
-
-    <div class="container-fluid" id="notesContainer">
-        
-       
-            <div class="row"id="row#1">
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 1</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Compra</h6>
-                          <p class="card-text">Comprar huevos y leche en el mercadona</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                     
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 2</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                      
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 3</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                </div>
-              </div>
-              
-              <div class="row" id="row#2">
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 1</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Compra</h6>
-                          <p class="card-text">Comprar huevos y leche en el mercadona</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                     
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 2</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                      
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Nota 3</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
-                      </div>
-                      
-                </div>
-              </div>
-        
-    </div>
-
-
-
-
-    <!-- Script Boostrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-  <script src="js\main.js"></script>
+  <header>
+    <div class="mainTitle">
+      <h1>My Notes</h1>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+    </div>
+  </header>
 
-
+  <section class="notesMainContainer">
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+    <h1>Hola</h1>
+  </section>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="createNote()">Submit</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  
   </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js\notes.js"></script>
+  <script src="js\main.js"></script>
 </html>
 
 

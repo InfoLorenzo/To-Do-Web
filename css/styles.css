@@ -2,76 +2,38 @@ body{
     
     color: #ffffff;
     background-color: #216869;
+
 }
 
-.titleMain h1{
-    position: relative;
-    font-size: 65px;
-    align-self: center;
-    color: #1f2421;
-    margin-top: auto;
-    margin-bottom: auto;
+.notesMainContainer{
+    display: grid;
+    
     width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: #216869;   
-}
-
-.notesContainer{
-    /* background-color: #9cc5a1; */
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 23px;
+    height: 100%;
+    justify-content: stretch;    
+    grid-column-gap: 5%;
     
+
+    grid-template-columns: 25% 25% 25%;
     
-}
-
-#modaladder .form-group label{
-    color: #000000;
-}
-
-
-#notesContainer{
-    margin-top: 5%;
-    /* background-color: red; */
-    text-align: center;
-    align-items: center;
-    position: relative;
+    margin-left: 7% ;
     
+
+    margin-top: 25px;
 }
-#notesContainer .row{
-   
+ .mainTitle{
     text-align: center;
-    align-items: center;
+    margin: 25px;
+    margin-bottom: 50px;
 }
 
-#addbutton{
-    font-size: 20px;
-}
-
-#maintitle{
-    color: #ffffff;
-    
-}
-
-#notesContainer .row .col-sm{
+.notesMainContainer h1{
+    justify-content: stretch;    
     text-align: center;
-    color: #383838;
-    margin-left: 4.5%;
-    /* El responsive es un poco patata 
-    por ahora lo dejaré así. */
-}
-#notesContainer .row{
-    text-align: center;
-    color: yellow;
+    background-color: black;
 }
 
-.card{
-    margin: 10px;
-    
-}
+.modal-content{
+    background-color: #216869;
 
-.modal-body form .form-group label{
-    color: #000000;
 }

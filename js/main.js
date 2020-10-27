@@ -1,33 +1,16 @@
-'use strict'
 
-var taskTitle;
-var taskeConcept;
-var taskText;
-var linkNota;
-var link1Nota;
-
-const task = {
-    taskTitle: '',
-    taskeConcept: '',
-    taskText: ''
-};
-  
-var taskObject = new task(document.getElementById("tasktitle").value,document.getElementById("taskConcept").value,taskObject.taskText = document.getElementById("taskTextArea").value);
+const Diego = createNewNote("Penetoide","Soy Diego");
 
 
-
-function createTask() {
-    console.log("test1")
-
-    this.taskObject.taskTitle = document.getElementById("tasktitle").value;
-    this.taskObject.taskeConcept = document.getElementById("taskConcept").value
-    this.taskObject.taskText = document.getElementById("taskTextArea").value
-
-    console.log(taskObject)
+function createNote(){
 
 
+   var title = document.getElementById(exampleInputEmail1).value
+   var text = document.getElementById(exampleInputPassword1).value
+
+    console.log("Tu nota fue creada con el nombre: " + title)
+    
+    console.log("Tu nota fue creada con el texto: " + text)
+
+    // createNewNote(title,text)
 }
-
-document.getElementById("formSubmit").addEventListener("click", createTask);
-
-
